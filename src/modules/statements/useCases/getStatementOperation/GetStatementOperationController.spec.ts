@@ -2,7 +2,6 @@ import { Connection, createConnection } from "typeorm";
 
 import request from 'supertest';
 import { app } from "../../../../app";
-import { createImportSpecifier } from "typescript";
 
 let connection: Connection;
 
